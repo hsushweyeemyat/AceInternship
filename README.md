@@ -3,3 +3,11 @@
 			- Ado.Net(old school)
 			- Dapper
 			- EF Core
+
+ACEInternship
+>ACEInternship.ConsoleApp
+>ACEInternship.RestApi
+
+Console App
+	Ado.Net
+	Dapper
