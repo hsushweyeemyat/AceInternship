@@ -1,4 +1,4 @@
-﻿using AceInternship.ConsoleApp;
+﻿using AceInternship.ConsoleApp.EFCore;
 using System.Data;
 using System.Data.SqlClient;
 
