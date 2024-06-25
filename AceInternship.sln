@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceInternship.ConsoleApp", "AceInternship.ConsoleApp\AceInternship.ConsoleApp.csproj", "{1E6AC55A-37C3-4BFC-9500-D3D3B6399DD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceInternship.MiniKPay", "AceInternship.MiniKPay\AceInternship.MiniKPay.csproj", "{5A4635B8-E2F7-4562-98E4-D0473B081DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceInternship.MiniKPay", "AceInternship.MiniKPay\AceInternship.MiniKPay.csproj", "{5A4635B8-E2F7-4562-98E4-D0473B081DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceInternship.Shared", "AceInternship.Shared\AceInternship.Shared.csproj", "{CE219A4C-C1C4-4455-91E2-54C234369AFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{5A4635B8-E2F7-4562-98E4-D0473B081DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4635B8-E2F7-4562-98E4-D0473B081DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A4635B8-E2F7-4562-98E4-D0473B081DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE219A4C-C1C4-4455-91E2-54C234369AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE219A4C-C1C4-4455-91E2-54C234369AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE219A4C-C1C4-4455-91E2-54C234369AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE219A4C-C1C4-4455-91E2-54C234369AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
