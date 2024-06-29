@@ -19,7 +19,7 @@ namespace AceInternship.RestApi.Controllers
 		[HttpGet]
 		public IActionResult GetFood()
 		{
-			string query = "select * from Tbl_Food where FoodId = @FoodId";
+			string query = "select * from Tbl_Food";
 			var lst = _adoDotNetService.Query<FoodModel>(query);
 			return Ok(lst);
 		}

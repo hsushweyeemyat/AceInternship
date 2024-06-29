@@ -36,9 +36,9 @@ namespace AceInternship.Shared
 				var parametersArray = parameters.Select(item => new SqlParameter(item.Name, item.Value)).ToArray();
 				cmd.Parameters.AddRange(parametersArray);
 			}
-			SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+			SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
 			DataTable dt = new DataTable();
-			adapter.Fill(dt);
+			sqlDataAdapter.Fill(dt);
 			connection.Close();
 
 			string json = JsonConvert.SerializeObject(dt); //C# to json
