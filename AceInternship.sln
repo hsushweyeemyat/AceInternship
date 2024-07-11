@@ -20,7 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceInternship.RestApiWithNL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceInternship.ConsoleAppHttpClient", "AceInternship.ConsoleAppHttpClient\AceInternship.ConsoleAppHttpClient.csproj", "{35204815-9BD1-491A-A718-F9EA659BA892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceInternship.ConsoleAppHttpClientExample", "AceInternship.ConsoleAppHttpClientExample\AceInternship.ConsoleAppHttpClientExample.csproj", "{452026E7-0B09-456E-9D5F-05CDEC5AFFB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceInternship.ConsoleAppHttpClientExample", "AceInternship.ConsoleAppHttpClientExample\AceInternship.ConsoleAppHttpClientExample.csproj", "{452026E7-0B09-456E-9D5F-05CDEC5AFFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceInternship.PizzaApi", "AceInternship.PizzaApi\AceInternship.PizzaApi.csproj", "{1A63932A-BD2C-4379-AA82-997DFAA7C959}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{452026E7-0B09-456E-9D5F-05CDEC5AFFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452026E7-0B09-456E-9D5F-05CDEC5AFFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452026E7-0B09-456E-9D5F-05CDEC5AFFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A63932A-BD2C-4379-AA82-997DFAA7C959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A63932A-BD2C-4379-AA82-997DFAA7C959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A63932A-BD2C-4379-AA82-997DFAA7C959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A63932A-BD2C-4379-AA82-997DFAA7C959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

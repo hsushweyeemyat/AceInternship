@@ -10,16 +10,16 @@ namespace AceInternship.ConsoleAppHttpClientExample
 {
 	internal class HttpClientExample
 	{
-		private readonly HttpClient _client = new HttpClient();
+		private readonly HttpClient _client = new HttpClient() { BaseAddress = new Uri("https://localhost:7155") };
 		private readonly string _blogEndpoint = "api/blog";
 		public async Task RunAsync()
 		{
-			//await ReadAsync();
+			await ReadAsync();
 			await EditAsync(1);
 		}
 		private async Task ReadAsync()
 		{
-			var response = await _client.GetAsync("https://localhost:7155/api/blog");
+			var response = await _client.GetAsync(_blogEndpoint);
 			if (response.IsSuccessStatusCode)
 			{
 				string jsonStr = await response.Content.ReadAsStringAsync();
