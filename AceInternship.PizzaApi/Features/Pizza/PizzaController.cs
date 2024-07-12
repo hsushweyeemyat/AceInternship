@@ -25,6 +25,18 @@ namespace AceInternship.PizzaApi.Features.Pizza
 			var lst = await _appDbContext.PizzaExtras.ToListAsync();
 			return Ok(lst);
 		}
+		[HttpGet("Order/{invoiceNo}")]
+		public async Task<IActionResult> GetOrder(string invoiceNo)
+		{
+			var item = await _appDbContext.PizzaOrders.FirstOrDefaultAsync(x => x.PizzaOrderInvoiceNo == invoiceNo);
+			var lst = await _appDbContext.PizzaOrderDetails.Where(x => x.PizzaOrderInvoiceNo == invoiceNo).ToListAsync();
+			return Ok(new
+			{
+				Order = item,
+				OrderDetail = lst
+			});
+		}
+
 		[HttpPost("Order")]
 		public async Task<IActionResult> OrderAsync(OrderRequest orderRequest)
 		{
@@ -61,7 +73,7 @@ namespace AceInternship.PizzaApi.Features.Pizza
 				TotalAmount= total,
 			};
 
-			return Ok(orderRequest);
+			return Ok(response);
 		}
 	}
 }
